@@ -176,7 +176,7 @@
   },  
 
   {
-    "id": 10,
+    "id": 9,
     "name": "Lizanne Cerami",
     "content": "Liz is highly motivated and excited to begin a career in the Tech World, driven by her desire to make a positive difference. Her curiosity for Software Engineering and the world around her fuels her eagerness to continuously learn and grow. Liz's unwavering dedication and ability to persevere are testaments to her commitment to progress and personal development.",
     "former": "Former Billing Specialist",
@@ -198,7 +198,7 @@
   },
   
   {
-    "id": 11,
+    "id": 10,
     "name": "Ilan Vaks",
     "content": "I discovered my love for technology while growing up in Brooklyn, New York. At the age of 15, I took on the exciting challenge of building my own PC, which sparked a deep passion within me. From that point forward, I've made it a point to incorporate technology into my everyday life. Keeping up with the ever-evolving trends in the tech world has become a personal curiosity of mine.",
     "former": "Former Construction PM",
@@ -220,24 +220,178 @@
   },
 
   {
-    "id": 10,
-    "name": "",
-    "content": "",
-    "former": "",
+    "id": 11,
+    "name": "Jasmine Henry",
+    "content": "Jasmine is a Naval veteran specializing in nuclear engineering as well as an artist in the makeup industry. Jasmine is looking for new ways to express her creativity as a software engineer.",
+    "former": "Former Nuclear Engineer",
 
-    "linkProject": "",
-    "linkGitHub": "",
-    "linkLinedin": "",
+    "linkProject": "https://project-makeup-web.web.app/",
+    "linkGitHub": "https://github.com/jas356",
+    "linkLinedin": "https://www.linkedin.com/in/jasmine-henry2/",
 
-    "projectName": "",
-    "projectInfo": "",
+    "projectName": "Understanding Undertones",
+    "projectInfo": "The site is to help beginner makeup artists and women as a whole with A better understand the importance of knowing how undertones, hues, color in jewelry (silver or gold), and even eye color can affect what shade of foundation/concealer should be worn to achieve an eye-catching result. Starting in the makeup industry, missing this little piece of knowledge definitely made it difficult to achieve a certain look. Also, it helps the makeup blend with your skin properly by using little to no product for everyday makeup wear.",
     "projectImage": "",
 
     "oneQuestion": "Why Boca Code?",
-    "oneAnswer": "",
+    "oneAnswer": "Boca Code was referred to me by an alumni, A mentor close to me entering the IT field as well and the world is transitioning into Tech Environment before our eyes. Coding is A skill I wanted to acquire but not knowing where to was scary for me. After doing my thorough research about Boca Code I realized it is a great place to learn something new, has great reviews, and is mainly due to the fact that the school is offering that intimate setting of learning in a classroom with support from alumni, one-on-ones with the teachers of the school. Which surely increased my interest and chances of truly understanding the material, and getting hands on experience.",
     "twoQuestion": "What are some of the important skills for success in your field?",
-    "twoAnswer": "",
+    "twoAnswer": "Versatility, willing to learn new languages, and adapting to new changes in the Tech Industry. Leaning into the uncomfortable parts of learning to enhance one's success are important skills to acquire and demonstrate. As well as having soft skills, humility, and understanding the importance of teamwork.",
     "threeQuestion": "What inspired you to pursue your current career path?",
-    "threeAnswer": ""
+    "threeAnswer": "Transitioning from an artistic, creative, and versatile background is what pushed me to learn new ways to CREATE and BUILD. Exercising my creative talent and showcasing my skills acquired at Boca Code into code gave me a better understanding of what can be achieved with writing code and the basics that give you the needed tools to create and build any thought and turn it into code. Creating a picture of a story using code is what amazes me every time. Always up for a challenge and learning new things."
   },
+
+  {
+    "id": 12,
+    "name": "David Radjai",
+    "content": "I am a former mortgage professional with over 15 years of experience. I have a masters degree in IT. I have gained a strong passion and appreciation for software engineering. I have transitioned my career to software engineering and aimed my goals towards solving problems.",
+    "former": "Former Mortgage Broker",
+
+    "linkProject": "https://mortgage-zone-web.web.app/",
+    "linkGitHub": "https://github.com/dradjai",
+    "linkLinedin": "https://www.linkedin.com/in/davidradjai/",
+
+    "projectName": "The Mortgage Zone",
+    "projectInfo": "A centralized mortgage resource center where users can submit, edit or delete requests, search through a list of brokers and calculate mortgage payments",
+    "projectImage": "",
+
+    "oneQuestion": "Why Boca Code?",
+    "oneAnswer": "Boca Code initially stood out to me because it was in person. Once I researched more and saw the curriculum I made my decision. I loved how the curriculum is relevant to the market and how they are very involved and well connected in the tech community.",
+    "twoQuestion": "What are some of the important skills for success in your field?",
+    "twoAnswer": "Important skills are programming, understanding of frameworks and libraries for building full-stack applications, knowledge of which tools to use to solve problems. Also, very important skills in addition to technical skills are soft skills. It is very important to have the ability to communicate and work well in teams towards objectives.",
+    "threeQuestion": "What inspired you to pursue your current career path?",
+    "threeAnswer": "During my career in the mortgage field I was intrigued and developed a strong interest for software engineering. I was always curious about how all the software that the entire company used was built on. I started teaching myself coding and immediately loved it. The ability to help solve problems and build something or contribute to something being built is satisfying and really drives me."
+  },
+
+  {
+    "id": 13,
+    "name": "Maria Camila Sandoval",
+    "content": "I am Camila, a coding enthusiast with a Bachelor's degree in Engineering and a strong passion for software development. Having worked in various positions within the medical industry, such as Medical Sales Manager and Biomedical Engineer Intern, I've gained valuable insights into the intersection of technology and healthcare. Besides my professional experience, I've undertaken multiple projects in web development and machine learning. My passion is to solve complex problems in an efficient manner while creating modern and meaningful interfaces for digital user experiences.",
+    "former": "",
+
+    "linkProject": "https://zerinlabs.com/",
+    "linkGitHub": "https://github.com/milasandovals",
+    "linkLinedin": "https://www.linkedin.com/in/camilasandovals/",
+
+    "projectName": "ZerinLabs",
+    "projectInfo": "A modern medication tracking app that not only enables users to save their comprehensive medication history but also allows them to include vital information such as reactions, refill dates, notes, prescribing doctors, and more.",
+    "projectImage": "",
+
+    "oneQuestion": "Why Boca Code?",
+    "oneAnswer": "I was drawn to BocaCode due to its remarkable track record of success stories. Upon attending the open house and engaging in conversations with the professors, I immediately realized that this institution was the ideal environment to enhance my skills.",
+    "twoQuestion": "What are some of the important skills for success in your field?",
+    "twoAnswer": "Perseverance, discipline, and meticulous attention to detail.",
+    "threeQuestion": "What inspired you to pursue your current career path?",
+    "threeAnswer": "My insatiable thirst for knowledge mixed with my passion for technology, coupled with a curiosity about the future."
+  },
+
+  {
+    "id": 14,
+    "name": "Bryan Vargas",
+    "content": "As a former computer science major, I'm excited to deepen my programming skills. I'm committed to advancing my education to excel in the rapidly evolving field of programming.",
+    "former": "Former Computer Science Major",
+
+    "linkProject": "https://final-front-end-one.web.app/",
+    "linkGitHub": "https://github.com/BryanVargas90",
+    "linkLinedin": "https://www.linkedin.com/in/bryandvargas/",
+
+    "projectName": "GameSync",
+    "projectInfo": "With my app, you can easily create gaming appointments with your friends and schedule specific days of the week for gaming sessions. It simplifies coordination, keeps everyone informed, and enhances the overall gaming experience.",
+    "projectImage": "",
+
+    "oneQuestion": "Why Boca Code?",
+    "oneAnswer": "I chose Boca code because it is a highly reputable and well-respected program that offers comprehensive training in Software Development. Boca code has a proven track record of helping students achieve their career goals, with many graduates going on to secure positions at top companies in the industry. The instructors and staff are knowledgeable and experienced professionals who are dedicated to providing personalized support and guidance to each student. Overall, I am confident that Boca Code will provide me with the skills, knowledge, and connections necessary to achieve my career aspirations.",
+    "twoQuestion": "What are some of the important skills for success in your field?",
+    "twoAnswer": "Solving skills are essential for success in the field of computer science. These skills involve the ability to analyze complex problems, break them down into smaller components, and devise effective solutions. Additionally, skills in programming languages, algorithm design, critical thinking, and adaptability are valuable for tackling challenges and driving innovation in the ever-evolving world of computer science.",
+    "threeQuestion": "What inspired you to pursue your current career path?",
+    "threeAnswer": "I have always been drawn to the opportunities presented by the world of technology. The potential for problem-solving and improving lives through technological advancements has fueled my passion for this career path. The constant learning and evolution within the field of computer science have provided me with exciting challenges and the chance to make a meaningful impact in society. These factors, combined with my innate curiosity and desire to innovate, have guided me towards my current career pursuit."
+  },
+
+  {
+    "id": 15,
+    "name": "Brianna Escobar",
+    "content": "Brianna absolutely loves astrology and enjoys taking on exciting challenges. Alongside this passion, she has a strong foundation in computer science. Through her recent education and work experiences, Brianna has developed skills like problem-solving, analytical thinking, and critical reasoning, which have proven valuable in various situations within the field. She finds great satisfaction in overcoming obstacles and pushing herself to new limits. Brianna is always eager to learn and grow, which helps her think creatively and adapt quickly to different circumstances.",
+    "former": "Previously in Food Service",
+
+    "linkProject": "https://zodiacwebbe.web.app/",
+    "linkGitHub": "https://github.com/briannaescobar6",
+    "linkLinedin": "https://www.linkedin.com/in/briannaescobar6/",
+
+    "projectName": "Zodiacwebbe",
+    "projectInfo": "I have developed a generative website that creates personalized mood boards based on your individual zodiac sign. The purpose of this website is to connect and inspire individuals through astrology. It serves as a platform to explore and delve into the world of astrology, providing users with a unique and personalized experience.",
+    "projectImage": "",
+
+    "oneQuestion": "Why Boca Code?",
+    "oneAnswer": "I had a strong interest in computer science even before discovering Boca Code. So, when a mentor of mine recommended the school, I immediately seized the opportunity. Boca Code impressed me with its abundant resources, in-person teaching approach, and welcoming atmosphere. Completing this course has turned out to be one of the most rewarding investments I've made in myself.",
+    "twoQuestion": "What are some of the important skills for success in your field?",
+    "twoAnswer": "To succeed in computer science and software engineering, it is important to possess strong problem-solving abilities and logical reasoning, a willingness to continuously learn and adapt to new technologies, strong communication and teamwork skills, and the ability to be adaptable and effectively tackle challenges.",
+    "threeQuestion": "What inspired you to pursue your current career path?",
+    "threeAnswer": "I am inspired by the transformative power of technology and its ability to solve complex problems. My passion for problem-solving and curiosity about how things work led me to pursue a career in computer science and software engineering. The dynamic nature of the industry and the opportunity to work alongside brilliant minds motivate me to stay at the forefront of innovation. I am eager to contribute to impactful projects, continuously learn, and shape the future through technology."
+  },
+
+  {
+    "id": 16,
+    "name": "Kaniel Tapper",
+    "content": "Kaniel is former retail employee with 5 years of experience in that field. He loves computers, cars and video games. Currently, he is software engineer looking for opportunity to expand his knowledge and expertise and he enjoys learning new ways to solve problems. His passion for engineering comes from AI and robotics, and will be engaging in IOT and robotics engineering in the future.",
+    "former": "Former Retail Manager",
+
+    "linkProject": "https://finalproject-web-kdt.web.app/",
+    "linkGitHub": "https://github.com/kanielDT",
+    "linkLinedin": "https://www.linkedin.com/in/kaniel-tapper/",
+
+    "projectName": "Creek Car Meets",
+    "projectInfo": "My project is about planning car events and listing them on the site with information on the event, what type of event, the date, time, who is hosting, and where are they hosting at.",
+    "projectImage": "",
+
+    "oneQuestion": "Why Boca Code?",
+    "oneAnswer": "I chose boca Code because it was local, as well it has on-site learning, the short amount of time the course is, as well as the variety of things that we learn. Staff is amazing, you feel like you're apart of a family and that is something I don't seem to be able to relate with anywhere else.",
+    "twoQuestion": "What are some of the important skills for success in your field?",
+    "twoAnswer": "Commitment, desire to learn, and not being scared to ask for help is the most important skill to me to be able to achieve anything and everything. Engineering is problem solving and you have to be dedicated to learning and growing.",
+    "threeQuestion": "What inspired you to pursue your current career path?",
+    "threeAnswer": "I have always been fascinated by computers, since middle school but I never really chased after that passion. As I got older I knew I wanted to do something in computers, but I didn't know what exactly. While researching, I found out about bootcamps and how it condenses what a degree is into weeks, which was awesome, so i wanted to try that out and that's what lead me into pursuing software engineering."
+  },
+
+  {
+    "id": 17,
+    "name": "Meghann Stamper",
+    "content": "Meghann is looking to combine her desire of helping people with a job in tech. In her spare time she enjoys solving puzzles, reading best sellers, and cuddling with her rescue dog.",
+    "former": "Former Speech Language Pathologist",
+
+    "linkProject": "https://how-they-look-web.web.app/",
+    "linkGitHub": "https://github.com/megstamp",
+    "linkLinedin": "https://www.linkedin.com/in/meghann-stamper/",
+
+    "projectName": "What They Look Like Now",
+    "projectInfo": "Website curated with my modern-day favorite AI generated historical figures.",
+    "projectImage": "",
+
+    "oneQuestion": "Why Boca Code?",
+    "oneAnswer": "Boca Code offers a rare chance to change one’s life so drastically in such a relatively short amount of time. There is no other bootcamp or 4-year-degree program that teaches such an enormous amount of material in such a short amount of time. I hope to utilize what I learn to change my future for the better.",
+    "twoQuestion": "What are some of the important skills for success in your field?",
+    "twoAnswer": "There are so many important skills, it's hard to choose just a few. Though I learned several technical skills, I still believe the most important skills needed are strong soft skills. Those of clear and regular communication, emotional intelligence, time management, work ethic, and critical thinking are of utmost importance.",
+    "threeQuestion": "What inspired you to pursue your current career path?",
+    "threeAnswer": "I grew tired of being overworked and underpaid in a career with limited growth and poor work-life balance. I want to use my inherent skills plus those I learn to find a career where I feel valued, am making a positive difference, and look forward to going to work everyday."
+  },
+
+  {
+    "id": 18,
+    "name": "Aaron Agosto",
+    "content": "Born and raised in South Florida, Aaron developed a deep connection to the outdoors and a love for fishing. While attending Broward College, he felt the need for a different direction. It was during his time as an electrician that he fell down the rabbit hole of software engineering, having way more questions than answers really sparked his curiosity and pushed him to pursue this career.",
+    "former": "Former Electrician",
+
+    "linkProject": "https://honey-hole-web-aa.web.app/",
+    "linkGitHub": "https://github.com/AaronMAgosto",
+    "linkLinedin": "https://www.linkedin.com/in/aaronagosto/",
+
+    "projectName": "Honey Hole",
+    "projectInfo": "Honey Hole allows users to mark down and find the best fishing spots. Saving the user a lot of time.",
+    "projectImage": "",
+
+    "oneQuestion": "Why Boca Code?",
+    "oneAnswer": "I was considering a career move to the tech industry but had concerns about online bootcamps. However, when I found out about Boca Code's program, I was immediately convinced and enrolled the very next day. The opportunities they offer got me excited about starting my tech journey.",
+    "twoQuestion": "What are some of the important skills for success in your field?",
+    "twoAnswer": "Having the ability to adapt and find solutions is paramount, just as important as breaking down complex ideas into manageable pieces while staying focused on the ultimate goal. However most importantly, is to have a collaborative mindset is These skills are essential for achieving success in any industry, especially in tech.",
+    "threeQuestion": "What inspired you to pursue your current career path?",
+    "threeAnswer": "I chose my current career path in tech because I wanted to understand how the world of tech works and stay relevant in our ever-evolving society. What inspired me the most was the endless learning opportunities it offers. With numerous paths to explore, a tech career allows me to continuously grow and learn."
+  }
 ]
