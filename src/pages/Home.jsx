@@ -1,9 +1,10 @@
+import NavMenu from "../layout/NavMenu";
 import AppLayout from "../layout/AppLayout.jsx";
 
 export default function Home() {
   return (
     <AppLayout>
-      <h1>Home</h1>
+      <NavMenu />
     </AppLayout>
   );
 }
