@@ -10,7 +10,7 @@ export default function NavMenu() {
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ms-auto">
             <Nav.Link as={ HashLink } to="#special-suace">Special Sauce</Nav.Link>
             <Nav.Link as={ HashLink } to="#photos">Photos</Nav.Link>
             <Nav.Link as={ HashLink } to="#portfolio">Portfolio</Nav.Link>
