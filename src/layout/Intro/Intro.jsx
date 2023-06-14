@@ -5,20 +5,15 @@ export default function Intro() {
 
   return(
     <main id="home">
-
-
       <Container>
-
-
-
         <Row>
-        <div className="media-container">
-          <div className="media-wrapper">
-            <video autoPlay loop muted>
-              <source src={videoUri} type="video/mp4" /> 
-            </video>
+          <div className="media-container">
+            <div className="media-wrapper">
+              <video autoPlay loop muted>
+                <source src={videoUri} type="video/mp4" /> 
+              </video>
+            </div>
           </div>
-      </div>
 
           <Col 
             md={{span: 8, offset: 2}}

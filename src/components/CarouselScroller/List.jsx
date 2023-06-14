@@ -8,7 +8,7 @@ export default function List() {
       {          
         data.map( (each, index) => {
           return (
-            <Carousel.Item key={index}>
+            <Carousel.Item>
               <Image
                 src={each.image}
                 fluid

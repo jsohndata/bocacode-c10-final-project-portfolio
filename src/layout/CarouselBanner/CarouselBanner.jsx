@@ -11,7 +11,7 @@ export default function CarouselBanner() {
             <CarouselScroller />
           </Col>
 
-          <Col md={6} className="bg-info">
+          <Col md={5} className="bg-info">
             <h2>Day in the Life</h2>   
             <p>Step into the whimsical realm of Cohort-10, where animated discussions and laughter create a symphony of camaraderie. Each snapshot captures the essence of this enchanting journey—determined faces immersed in studies, minds swirling with knowledge and growth. Explore our gallery and witness the magic as the ordinary transforms into extraordinary moments within the captivating world of Cohort-10.</p>       
           </Col>
