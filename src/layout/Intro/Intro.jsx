@@ -23,7 +23,7 @@ export default function Intro() {
           <Col 
             md={{span: 8, offset: 2}}
             lg={{span:4, offset: 8}}>
-            <div class="media-content">
+            <div className="media-content">
               <h1>C-10 Portfolio</h1>
               <p className="text-xs-center text-md-start">Hats off to BocaCode's Cohort 10 for conquering a rollercoaster ride of a 10-week course and emerging victorious with their mind-blowing final project! We raise our glasses high and toast to the 13 exceptional students who have truly dazzled us with their brilliance. Bravo, you magnificent bunch!</p>
             </div>

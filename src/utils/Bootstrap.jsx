@@ -10,6 +10,7 @@ import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Accordion from "react-bootstrap/Accordion";
 import ListGroup from "react-bootstrap/ListGroup";
+import Carousel from "react-bootstrap/Carousel";
 
 
-export { Container, Row, Col, Card, Nav, Navbar, NavDropdown,  Button, Image, Accordion, ListGroup, Modal }
+export { Container, Row, Col, Card, Nav, Navbar, NavDropdown,  Button, Image, Accordion, ListGroup, Modal, Carousel }
