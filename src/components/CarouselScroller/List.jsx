@@ -11,9 +11,8 @@ export default function List() {
             <Carousel.Item>
               <Image
                 src={each.image}
-                fluid
                 alt="First slide"
-              />
+                fluid />
 
               <Carousel.Caption>
                 <h3>{each.title}</h3>

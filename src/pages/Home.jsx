@@ -9,8 +9,15 @@ export default function Home() {
     <AppLayout>      
       <Intro />
       <ThreeThings />
-      <CarouselBanner />
+      <CarouselBanner
+        title="Day in the Life"
+        content="111 Step into the whimsical realm of Cohort-10, where animated discussions and laughter create a symphony of camaraderie. Each snapshot captures the essence of this enchanting journey—determined faces immersed in studies, minds swirling with knowledge and growth. Explore our gallery and witness the magic as the ordinary transforms into extraordinary moments within the captivating world of Cohort-10." />
+      
       <Portfolio />
+      
+      <CarouselBanner
+        title="Nom Nom"
+        content="222 Step into the whimsical realm of Cohort-10, where animated discussions and laughter create a symphony of camaraderie. Each snapshot captures the essence of this enchanting journey—determined faces immersed in studies, minds swirling with knowledge and growth. Explore our gallery and witness the magic as the ordinary transforms into extraordinary moments within the captivating world of Cohort-10." />
     </AppLayout>
   );
 }
