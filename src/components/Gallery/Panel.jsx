@@ -1,21 +1,31 @@
+import { useState } from 'react';
 import { ShareFill, InfoLg } from 'react-bootstrap-icons';
-import { Col, Card, Image, Modal, Button, Tooltip, OverlayTrigger } from '../../utils/Bootstrap.jsx';
+import { Container, Row, Col, Card, Image, Modal, Button, Tooltip, OverlayTrigger } from '../../utils/Bootstrap.jsx';
 
-export default function Panel( {data: {projectName, projectInfo, former, projectImage, linkProject}} ) {
+export default function Panel( {data: {projectName, projectInfo, name, former, content, projectImage, linkProject, photo}} ) {
 
-    const renderTooltip = (props) => (
-      
-      <Tooltip className="button-tooltip" {...props}>
-        Launch Project
-      </Tooltip>
-    );
+  const toolTipLaunch = (props) => (      
+    <Tooltip className="button-tooltip" {...props}>
+      Launch Project
+    </Tooltip>
+  );
 
-  const imageUri = process.env.PUBLIC_URL + '/images/' + projectImage;
+  const toolTipProfile = (props) => (      
+    <Tooltip className="button-tooltip" {...props}>
+      See Profile
+    </Tooltip>
+  );
+
+  const [show, setShow] = useState(false);
+
+  const toggleShow = () => setShow(!show);
+
+  const imageUri = process.env.PUBLIC_URL + '/images/';
 
   return (
     <Col md={6} lg={4}>
       <Card>          
-        <a href={linkProject} target='_blank' rel="noreferrer"><Image src={imageUri} fluid /></a>          
+        <a href={linkProject} target='_blank' rel="noreferrer"><Image src={imageUri + projectImage} fluid /></a>          
           <Card.Body className="px-4 my-2">
             <h3 className='text-center'>{projectName}</h3>
             <p className='text-center'><strong>{former}</strong></p>
@@ -24,32 +34,33 @@ export default function Panel( {data: {projectName, projectInfo, former, project
             <OverlayTrigger
               placement="right"
               delay={{ show: 250, hide: 400 }}
-              overlay={renderTooltip}>           
+              overlay={toolTipLaunch}>           
               <Button variant="outline-primary"><a href={linkProject} target='_blank' rel="noreferrer"><ShareFill color="primary" size={20} /></a></Button>
             </OverlayTrigger>
 
             <OverlayTrigger
               placement="right"
               delay={{ show: 250, hide: 400 }}
-              overlay={renderTooltip}>           
-              <Button variant="outline-primary"><a href={linkProject} target='_blank' rel="noreferrer"><InfoLg color="primary" size={20} /></a></Button>
+              overlay={toolTipProfile}>           
+              <Button variant="outline-primary" onClick={toggleShow}><InfoLg color="primary" size={20} /></Button>
             </OverlayTrigger>
-
         </Card.Body>
-
       </Card>  
 
-      <Modal>
-        <Modal.Header closeButton>
-          <Modal.Title>{projectName}</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <Image src={imageUri} fluid />
-          <p><strong>{former}</strong></p>
-          <Card.Text>
-            {projectInfo}
-          </Card.Text>
-        </Modal.Body>
+      <Modal show={show} onHide={toggleShow} size="xl">
+        <Container>
+          <Row>
+            <Col xs={12} md={6}>
+              <Image src={imageUri + photo} fluid />
+            </Col>
+
+            <Col xs={12} md={6}>
+              <h3>{name}</h3>
+              <p>{former}</p>
+              <p>{content}</p>
+            </Col>
+          </Row>
+        </Container>
       </Modal>
     </Col>
   );

@@ -1,8 +1,10 @@
 .gallery {
   .card {
+    background-color: rgba(250, 250, 250, 0.68);
+    
    img {
       aspect-ratio: 4/2.5;
       object-fit: fill;
-    }
+    }    
   }
 }
