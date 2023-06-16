@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/bocacode-c10-final-project-portfolio/static/css/main.d961ab04.css",
+    "main.js": "/bocacode-c10-final-project-portfolio/static/js/main.a51ae3bd.js",
+    "static/media/bg1.webp": "/bocacode-c10-final-project-portfolio/static/media/bg1.35eb51a07a811082ef7c.webp",
+    "index.html": "/bocacode-c10-final-project-portfolio/index.html",
+    "main.d961ab04.css.map": "/bocacode-c10-final-project-portfolio/static/css/main.d961ab04.css.map",
+    "main.a51ae3bd.js.map": "/bocacode-c10-final-project-portfolio/static/js/main.a51ae3bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d961ab04.css",
+    "static/js/main.a51ae3bd.js"
+  ]
+}
