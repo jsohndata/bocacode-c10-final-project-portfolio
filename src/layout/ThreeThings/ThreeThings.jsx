@@ -14,22 +14,25 @@ export default function ThreeThings() {
         </Row>
 
         <Row>
-          <Col xs={11} lg={4}>            
+          <Col xs={11} lg={4} 
+            className='three-things-panel'>            
             <Image fluid src={imageURI+"special-sauce-1.webp"} alt="placeholder" />
             <h3 className="text-center">Diverse Skill Sets</h3>
-            <p>The cohort combines beginners and experienced coders, fostering a dynamic learning environment where knowledge is shared, collaboration flourishes, and coding principles are well-rounded.</p>
+            <p className="text-center text-lg-start">The cohort combines beginners and experienced coders, fostering a dynamic learning environment where knowledge is shared, collaboration flourishes, and coding principles are well-rounded.</p>
           </Col>
 
-          <Col xs={11} lg={4}>            
-            <Image fluid src={imageURI+"special-sauce-1.webp"} alt="placeholder" />
+          <Col xs={11} lg={4}
+            className='three-things-panel'>            
+            <Image fluid src={imageURI+"special-sauce-2.webp"} alt="placeholder" />
             <h3 className="text-center">Supportive Community</h3>
-            <p>The coding cohort forms a supportive community where students actively engage, collaborate, and nurture a sense of camaraderie, fostering a comfortable learning environment.</p>
+            <p className="text-center text-lg-start">The coding cohort forms a supportive community where students actively engage, collaborate, and nurture a sense of camaraderie, fostering a comfortable learning environment.</p>
           </Col>
 
-          <Col xs={11} lg={4}>            
-            <Image fluid src={imageURI+"special-sauce-1.webp"} alt="placeholder" />
+          <Col xs={11} lg={4}
+            className='three-things-panel'>            
+            <Image fluid src={imageURI+"special-sauce-3.webp"} alt="placeholder" />
             <h3 className="text-center">Collective Growth</h3>
-            <p>The cohort's coding journey fuels growth, celebration, and continuous improvement, inspiring students to reach new coding heights together.</p>
+            <p className="text-center text-lg-start">The cohort's coding journey fuels growth, celebration, and continuous improvement, inspiring students to reach new coding heights together.</p>
           </Col>
 
         </Row>

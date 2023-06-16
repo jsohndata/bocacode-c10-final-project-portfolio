@@ -6,4 +6,11 @@
   h3 {
     font-size: clamp(2.0rem, 4vw, 2.5rem); 
   }
+
+  .three-things-panel {
+    p {
+      font-size: clamp(1.0rem, 4vw, 1.5rem);
+      font-weight: 600;
+    }
+  }
 }
