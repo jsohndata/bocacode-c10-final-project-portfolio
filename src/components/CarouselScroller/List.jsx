@@ -1,7 +1,6 @@
 import { Carousel, Image } from '../../utils/Bootstrap.jsx';
-import data from '../../data/carousel-day-in-life.json'
 
-export default function List() {
+export default function List( {data} ) {
 
   return (
     <Carousel>

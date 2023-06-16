@@ -1,18 +1,19 @@
 import { Container, Row, Col } from "../../utils/Bootstrap.jsx";
 import CarouselScroller from "../../components/CarouselScroller";
 
-export default function CarouselBanner( {title, content} ) {
+export default function CarouselBanner( {title, content, data} ) {
 
   return (
     <section id="day-in-the-life">
       <Container>
-        <Row>
-          <Col className="bg-danger">
-            <CarouselScroller />
+        <Row className="g-0">
+          <Col xs={12} lg={7}>
+            <CarouselScroller
+              data={data} />
           </Col>
 
-          <Col md={5} className="bg-info">
-            <h2>{ title }</h2>   
+          <Col xs={12} lg={5} className="bg-dark text-light p-5">
+            <h2>{ title }</h2>
             <p>{ content }</p>       
           </Col>
         </Row>

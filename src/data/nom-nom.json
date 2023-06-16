@@ -1,18 +1,18 @@
 [
   {
-    "image": "https://picsum.photos/800/600?random=10",
+    "image": "https://picsum.photos/800/500?random=10",
     "title":  "First slide label",
     "content": "Nulla vitae elit libero, a pharetra augue mollis interdum."
   },
 
   {
-    "image": "https://picsum.photos/800/600?random=20",
+    "image": "https://picsum.photos/800/500?random=20",
     "title":  "Second slide label",
     "content": "Pope elit libero, a pharetra augue mollis interdum."
   },
 
   {
-    "image": "https://picsum.photos/800/600?random=30",
+    "image": "https://picsum.photos/800/500?random=30",
     "title":  "Three slide label",
     "content": "Vawq elit libero, a pharetra augue mollis interdum."
   }

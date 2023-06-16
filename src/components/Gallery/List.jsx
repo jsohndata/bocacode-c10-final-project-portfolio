@@ -5,8 +5,8 @@ import Panel from './Panel.jsx';
 export default function List() {
 
   return (
-    <Container>
-      <Row>
+    <Container className="gallery">
+      <Row className='g-3'>
         {
           data.map( (each, index) => {
             return (
