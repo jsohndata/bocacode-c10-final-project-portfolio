@@ -11,7 +11,7 @@
     
     "projectName": "BITE-BUSTER",
     "projectInfo": "Introducing Bite-Buster, the ultimate app revolutionizing weekday dinners for busy individuals. Discover a wide range of dining options conveniently brought together in one place. Indulge in delicious meals while saving money.",
-    "projectImage": "bit-buster.png",    
+    "projectImage": "portfolio-bit-buster.png",    
     
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "I chose Boca Code due to their in-class lessons, strong presence in the tech community, and the positive team culture that impressed me from the moment I first encountered them.",
@@ -33,7 +33,7 @@
     
     "projectName": "BÜNDO",
     "projectInfo": "BÜNDO is a crowd sourcing app that allows nomadic dwellers to submit a safe legal and exciting boondocking(parking) locations so that others may be able to find and rate them for the rest to discover and do the same.",
-    "projectImage": "bundo.png",
+    "projectImage": "portfolio-bundo.png",
     
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "Most other options were virtual, and the few in-person options had limited curriculum or unrealistic timeframes. Boca Code seemed to check all the right boxes. They offer in-person learning, a full stack software engineering course, and a suitable timeframe for effective learning.",
@@ -55,7 +55,7 @@
 
     "projectName": "Wonderlust",
     "projectInfo": "Transforming stress into tranquility by nature gazing as Wonderlust captures the world's wonders, one frame at a time.",
-    "projectImage": "wonderlust.png",
+    "projectImage": "portfolio-wonderlust.png",
 
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "I chose Boca Code because I was looking for an in-person learning experience and determined to become a software engineer. In addition, I was drawn to the school's community values and support, which spoke to me on a deeper level. The team at Boca Code feels like a family, and this sense of belonging and support was an important factor in my decision to attend the school.",
@@ -77,7 +77,7 @@
 
     "projectName": "Bucket List 101",
     "projectInfo": "A place where you can compile a list of things you want to do or places you want to visit. It can be anything you want it to be, all while being completely secure via jwt web-tokens, SSL, authentication and authorization.",
-    "projectImage": "bucket-list-101.png",
+    "projectImage": "portfolio-bucket-list-101.png",
 
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "I chose boca code so that I could have a place where I can learn a new valuable skill at a faster pace. After doing some research, I realized I had an interest in coding. After spending time with the instructors and alumni, I found a new sense of appreciation for the boot camp. The instructors really take the time to make sure that you progress by having a great curriculum and bringing their mazing personalities to each lesson.",
@@ -99,7 +99,7 @@
 
     "projectName": "Conservation Connect",
     "projectInfo": "Conservation Connect promotes lesser-known conservation organizations, raising awareness and encouraging engagement. It integrates conservation into daily life, empowering individuals to contribute meaningfully from home.",
-    "projectImage": "convservation-connect.png",
+    "projectImage": "portfolio-convservation-connect.png",
 
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "Boca Code offers a rare opportunity to not only learn in-person, but to stay up-to-date on the most sought after technologies and job skills in the market. They've fostered a close-knit community that is constantly uplifting and supporting each other, and welcoming of diversity and inclusion.",
@@ -121,7 +121,7 @@
 
     "projectName": "Psychopharmacology Index",
     "projectInfo": "My project aims to be an informational tool that can detect and inform about drug-drug interactions, and to provide accurate and relevant data on the surface level pharmacology of drug-receptor interactions.",
-    "projectImage": "psychopharmacology-index.jpg",
+    "projectImage": "portfolio-psychopharmacology-index.jpg",
 
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "I chose Boca Code was drawn to the rigorous and comprehensive curriculum they offer. I wanted a program that would provide me with a solid foundation in software engineering and cover the essential skills and technologies needed in the industry. Boca Code's curriculum seemed well-designed and up-to-date, which was crucial for me.",
@@ -143,7 +143,7 @@
 
     "projectName": "ChurchedIn",
     "projectInfo": "This website is build for my church. I created an event section where I keep everybody up-to-date about all the happenings of the church.",
-    "projectImage": "churchedIn.png",
+    "projectImage": "portfolio-churchedIn.png",
 
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "During my search for software programming classes, I had specific criteria in mind. I was looking for a local option that offered a comprehensive curriculum and instruction by qualified teachers. I was thrilled to discover a school located in Boca that not only met these requirements but also exceeded my expectations by providing additional benefits. The best school by far in my book.",
@@ -165,7 +165,7 @@
 
     "projectName": "Toastmasters",
     "projectInfo": "A program to assist the evaluation portion of a Toastmaster Evaluation.",
-    "projectImage": "toastmasters.png",
+    "projectImage": "portfolio-toastmasters.png",
 
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "Boca Code's immersive 10-week program encompasses a comprehensive selection of the most sought-after frameworks, libraries, and programming languages in the industry.",
@@ -187,7 +187,7 @@
 
     "projectName": "Fur-Ever Friend",
     "projectInfo": "An interactive mobile app that will allow users to match to a dog who suits their lifestyle.",
-    "projectImage": "fur-ever-friend.png",
+    "projectImage": "portfolio-fur-ever-friend.png",
 
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "When I set out on my journey to become a Software Engineer, I had a specific online school in mind; however, everything changed when I stumbled upon Boca Code through social media. Attending the immersive FullStack course became an easy decision once I saw that I'd benefit from in-person learning. The allure of small class sizes and face-to-face interactions with instructors was incredibly appealing. The sense of community and invaluable support that Boca Code provides is simply priceless. I'm truly grateful for the incredible opportunity they have given me.",
@@ -209,7 +209,7 @@
 
     "projectName": "LaceTalk",
     "projectInfo": "My vision was to establish a platform that would promote an open-source and inclusive environment within the sneaker community, welcoming individuals who were interested by the market and make information public.",
-    "projectImage": "lacetalk.png",
+    "projectImage": "portfolio-lacetalk.png",
 
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "Boca Code impressed me with its hands-on curriculum and seeing how passionate the staff was when i first arrived inspired me. Additionally, I highly valued the opportunity to network and build meaningful connections within the community.",
@@ -231,7 +231,7 @@
 
     "projectName": "Understanding Undertones",
     "projectInfo": "The site helps beginner makeup artists and women understand how undertones, hues, jewelry color, and eye color affect foundation/concealer shades for eye-catching results. This knowledge is crucial for achieving desired looks and blending with minimal product usage in everyday makeup.",
-    "projectImage": "understanding-undertones.jpg",
+    "projectImage": "portfolio-understanding-undertones.jpg",
 
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "Boca Code was referred to me by an alumni, A mentor close to me entering the IT field as well and the world is transitioning into Tech Environment before our eyes. Coding is A skill I wanted to acquire but not knowing where to was scary for me. After doing my thorough research about Boca Code I realized it is a great place to learn something new, has great reviews, and is mainly due to the fact that the school is offering that intimate setting of learning in a classroom with support from alumni, one-on-ones with the teachers of the school. Which surely increased my interest and chances of truly understanding the material, and getting hands on experience.",
@@ -253,7 +253,7 @@
 
     "projectName": "The Mortgage Zone",
     "projectInfo": "A centralized mortgage resource center where users can submit, edit or delete requests, search through a list of brokers and calculate mortgage payments",
-    "projectImage": "the-mortgage-zone.jpg",
+    "projectImage": "portfolio-the-mortgage-zone.jpg",
 
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "Boca Code initially stood out to me because it was in person. Once I researched more and saw the curriculum I made my decision. I loved how the curriculum is relevant to the market and how they are very involved and well connected in the tech community.",
@@ -275,7 +275,7 @@
 
     "projectName": "ZerinLabs",
     "projectInfo": "A modern medication tracking app that not only enables users to save their comprehensive medication history but also allows them to include vital information such as reactions, refill dates, notes, prescribing doctors, and more.",
-    "projectImage": "zerin-labs.jpg",
+    "projectImage": "portfolio-zerin-labs.jpg",
 
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "I was drawn to BocaCode due to its remarkable track record of success stories. Upon attending the open house and engaging in conversations with the professors, I immediately realized that this institution was the ideal environment to enhance my skills.",
@@ -297,7 +297,7 @@
 
     "projectName": "GameSync",
     "projectInfo": "With my app, you can easily create gaming appointments with your friends and schedule specific days of the week for gaming sessions. It simplifies coordination, keeps everyone informed, and enhances the overall gaming experience.",
-    "projectImage": "gamesync.png",
+    "projectImage": "portfolio-gamesync.png",
 
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "I chose Boca code because it is a highly reputable and well-respected program that offers comprehensive training in Software Development. Boca code has a proven track record of helping students achieve their career goals, with many graduates going on to secure positions at top companies in the industry. The instructors and staff are knowledgeable and experienced professionals who are dedicated to providing personalized support and guidance to each student. Overall, I am confident that Boca Code will provide me with the skills, knowledge, and connections necessary to achieve my career aspirations.",
@@ -319,7 +319,7 @@
 
     "projectName": "Zodiacwebbe",
     "projectInfo": "I have developed a generative website that creates personalized mood boards based on your individual zodiac sign. The purpose of this website is to connect and inspire individuals through astrology. It serves as a platform to explore and delve into the world of astrology, providing users with a unique and personalized experience.",
-    "projectImage": "zodiacwebbe.png",
+    "projectImage": "portfolio-zodiacwebbe.png",
 
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "I had a strong interest in computer science even before discovering Boca Code. So, when a mentor of mine recommended the school, I immediately seized the opportunity. Boca Code impressed me with its abundant resources, in-person teaching approach, and welcoming atmosphere. Completing this course has turned out to be one of the most rewarding investments I've made in myself.",
@@ -341,7 +341,7 @@
 
     "projectName": "Creek Car Meets",
     "projectInfo": "My project is about planning car events and listing them on the site with information on the event, what type of event, the date, time, who is hosting, and where are they hosting at.",
-    "projectImage": "creek-car-meets.jpg",
+    "projectImage": "portfolio-creek-car-meets.jpg",
 
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "I chose boca Code because it was local, as well it has on-site learning, the short amount of time the course is, as well as the variety of things that we learn. Staff is amazing, you feel like you're apart of a family and that is something I don't seem to be able to relate with anywhere else.",
@@ -363,7 +363,7 @@
 
     "projectName": "What They Look Like Now",
     "projectInfo": "Website curated with my modern-day favorite AI generated historical figures.",
-    "projectImage": "what-they-look-like-now.png",
+    "projectImage": "portfolio-what-they-look-like-now.png",
 
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "Boca Code offers a rare chance to change one’s life so drastically in such a relatively short amount of time. There is no other bootcamp or 4-year-degree program that teaches such an enormous amount of material in such a short amount of time. I hope to utilize what I learn to change my future for the better.",
@@ -385,7 +385,7 @@
 
     "projectName": "Honey Hole",
     "projectInfo": "Honey Hole allows users to mark down and find the best fishing spots. Saving the user a lot of time.",
-    "projectImage": "honey-hole.png",
+    "projectImage": "portfolio-honey-hole.png",
 
     "oneQuestion": "Why Boca Code?",
     "oneAnswer": "I was considering a career move to the tech industry but had concerns about online bootcamps. However, when I found out about Boca Code's program, I was immediately convinced and enrolled the very next day. The opportunities they offer got me excited about starting my tech journey.",

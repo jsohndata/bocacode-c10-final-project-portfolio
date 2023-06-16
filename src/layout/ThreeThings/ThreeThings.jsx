@@ -1,5 +1,7 @@
 import { Container, Row, Col, Image } from '../../utils/Bootstrap.jsx';
 
+const imageURI = process.env.PUBLIC_URL + '/images/';
+
 export default function ThreeThings() {
 
   return (
@@ -12,20 +14,20 @@ export default function ThreeThings() {
         </Row>
 
         <Row>
-          <Col md={4}>            
-            <Image fluid src="https://via.placeholder.com/600x600" alt="placeholder" />
+          <Col xs={11} lg={4}>            
+            <Image fluid src={imageURI+"special-sauce-1.webp"} alt="placeholder" />
             <h3 className="text-center">Diverse Skill Sets</h3>
             <p>The cohort combines beginners and experienced coders, fostering a dynamic learning environment where knowledge is shared, collaboration flourishes, and coding principles are well-rounded.</p>
           </Col>
 
-          <Col md={4}>            
-            <Image fluid src="https://via.placeholder.com/600x600" alt="placeholder" />
+          <Col xs={11} lg={4}>            
+            <Image fluid src={imageURI+"special-sauce-1.webp"} alt="placeholder" />
             <h3 className="text-center">Supportive Community</h3>
             <p>The coding cohort forms a supportive community where students actively engage, collaborate, and nurture a sense of camaraderie, fostering a comfortable learning environment.</p>
           </Col>
 
-          <Col md={4}>            
-            <Image fluid src="https://via.placeholder.com/600x600" alt="placeholder" />
+          <Col xs={11} lg={4}>            
+            <Image fluid src={imageURI+"special-sauce-1.webp"} alt="placeholder" />
             <h3 className="text-center">Collective Growth</h3>
             <p>The cohort's coding journey fuels growth, celebration, and continuous improvement, inspiring students to reach new coding heights together.</p>
           </Col>
