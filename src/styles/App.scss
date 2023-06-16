@@ -1,9 +1,11 @@
+@use "../components/CarouselScroller/carousel-scroller";
+@use "../components/Gallery/gallery";
 @use "../layout/Intro/intro";
+@use "../layout/NavMenu/nav-menu";
 @use "../layout/CarouselBanner/carousel-banner";
 @use "../layout/ThreeThings/three-things";
 @use "../layout/Portfolio/portfolio";
-@use "../components/CarouselScroller/carousel-scroller";
-@use "../components/Gallery/gallery";
+
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Spice&display=swap');
 
 

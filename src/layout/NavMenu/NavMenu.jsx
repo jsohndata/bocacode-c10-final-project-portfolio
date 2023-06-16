@@ -3,10 +3,9 @@ import { Container, Navbar, Nav } from "../../utils/Bootstrap.jsx";
 
 export default function NavMenu() {
   return (
-        <>
-    <Navbar bg="light" expand="lg" fixed="top">
+    <Navbar expand="lg" variant="dark" fixed="top">
       <Container>
-        <Navbar.Brand as={ HashLink } to="#home">C-10</Navbar.Brand>
+        <Navbar.Brand as={ HashLink } to="#home">🥳</Navbar.Brand>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -18,8 +17,6 @@ export default function NavMenu() {
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
-        </>
-    
+    </Navbar>    
   );
 }
