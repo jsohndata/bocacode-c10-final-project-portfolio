@@ -7,7 +7,7 @@ export default function List( {data} ) {
       {          
         data.map( (each, index) => {
           return (
-            <Carousel.Item>
+            <Carousel.Item key={index}>
               <Image
                 src={process.env.PUBLIC_URL+'/images/'+each.image}
                 alt="First slide"
