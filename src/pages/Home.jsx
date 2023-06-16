@@ -15,7 +15,7 @@ export default function Home() {
       <CarouselBanner
         anchorID="day-in-life"
         title="Day in the Life"
-        content="Enter the whimsical realm of Cohort-10, where animated discussions and laughter blend in harmonious camaraderie. Each snapshot captures the essence of this enchanting journey—determined faces absorbed in studies, minds brimming with knowledge and growth. Explore our gallery and witness the magic as the ordinary transcends into extraordinary moments within the captivating world of Cohort-10."
+        content="Step into Cohort-10's whimsical realm, where lively discussions and laughter intertwine. Explore our gallery, where extraordinary moments unfold within this enchanting journey. Discover determined faces immersed in profound studies, minds brimming with growth. Join us as the ordinary transforms into captivating experiences in Cohort-10's world."
         data={dayInLife} />
       
       <Portfolio />
