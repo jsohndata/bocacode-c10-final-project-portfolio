@@ -18,7 +18,7 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
 
   const [show, setShow] = useState(false);
 
-  const toggleShow = () => setShow(!show);
+  const toggleModalShow = () => setShow(!show);
 
   const imageUri = process.env.PUBLIC_URL + '/images/';
 
@@ -28,27 +28,36 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
         <a href={linkProject} target='_blank' rel="noreferrer"><Image src={imageUri + projectImage} fluid /></a>          
           <Card.Body className="px-4 my-2">
             <h3 className='text-center'>{projectName}</h3>
-            <p className='text-center'><strong>{former}</strong></p>
+            <p className='text-center cursor-pointer'
+              onClick={toggleModalShow}><strong>{name}</strong></p>
             <p>{projectInfo}</p> 
 
             <OverlayTrigger
               placement="right"
               delay={{ show: 250, hide: 400 }}
               overlay={toolTipLaunch}>           
-              <Button variant="outline-primary"><a href={linkProject} target='_blank' rel="noreferrer"><ShareFill color="primary" size={20} /></a></Button>
+              <Button variant="outline-primary">
+                <a href={linkProject} target='_blank' rel="noreferrer"><ShareFill color="primary" size={20} /></a>
+              </Button>
             </OverlayTrigger>
 
             <OverlayTrigger
               placement="right"
               delay={{ show: 250, hide: 400 }}
               overlay={toolTipProfile}>           
-              <Button variant="outline-primary" onClick={toggleShow}><InfoLg color="primary" size={20} /></Button>
+              <Button variant="outline-primary" className="mx-2" onClick={toggleModalShow}>
+                <InfoLg color="primary" size={20} />
+              </Button>
             </OverlayTrigger>
         </Card.Body>
       </Card>  
 
-      <Modal show={show} onHide={toggleShow} size="xl">
-        <Container>
+      <Modal 
+        show={show} 
+        onHide={toggleModalShow} 
+        size="xl"
+        className="backdrop-effect">
+        <Container className="m-0 p-0">
           <Row>
             <Col xs={12} md={6}>
               <Image src={imageUri + photo} fluid />

@@ -45,3 +45,15 @@ section {
 #portfolio, #special-sauce, #nom-nom, #day-in-life {
   scroll-margin: 4em;
 }
+
+.backdrop-effect {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: brightness(100px);  
+  -webkit-backdrop-filter: brightness(100px);  
+  backdrop-filter: blur(3px);  
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
