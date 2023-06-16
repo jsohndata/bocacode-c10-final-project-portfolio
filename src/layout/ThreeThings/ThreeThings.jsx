@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from '../../utils/Bootstrap.jsx';
 export default function ThreeThings() {
 
   return (
-    <section id="three-things">
+    <section id="special-sauce">
       <Container>
         <Row>
           <Col xs={11} sm={12}>

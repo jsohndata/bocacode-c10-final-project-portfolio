@@ -1,55 +1,44 @@
 [
   {
-    "image": "https://picsum.photos/800/500?random=1",
-    "title":  "First slide label",
-    "content": "Nulla vitae elit libero, a pharetra augue mollis interdum."
+    "image": "day-in-life-IMG_3482.webp",
+    "title":  "",
+    "content": ""
   },
 
   {
-    "image": "https://picsum.photos/800/500?random=2",
-    "title":  "Second slide label",
-    "content": "Pope elit libero, a pharetra augue mollis interdum."
+    "image": "day-in-life-IMG_8941.webp",
+    "title":  "",
+    "content": ""
+  }, 
+
+  {
+    "image": "day-in-life-IMG_5645.webp",
+    "title":  "",
+    "content": ""
+  },   
+
+  {
+    "image": "day-in-life-IMG_2975.webp",
+    "title":  "",
+    "content": ""
   },
 
   {
-    "image": "https://picsum.photos/800/500?random=3",
-    "title":  "Three slide label",
-    "content": "Vawq elit libero, a pharetra augue mollis interdum."
+    "image": "day-in-life-IMG_6524.webp",
+    "title":  "",
+    "content": ""
   },
 
   {
-    "image": "https://picsum.photos/800/500?random=1",
-    "title":  "First slide label",
-    "content": "Nulla vitae elit libero, a pharetra augue mollis interdum."
+    "image": "day-in-life-IMG_5027.webp",
+    "title":  "",
+    "content": ""
   },
 
   {
-    "image": "https://picsum.photos/800/500?random=2",
-    "title":  "Second slide label",
-    "content": "Pope elit libero, a pharetra augue mollis interdum."
-  },
+    "image": "day-in-life-IMG_3706.webp",
+    "title":  "",
+    "content": ""
+  }  
 
-  {
-    "image": "https://picsum.photos/800/500?random=3",
-    "title":  "Three slide label",
-    "content": "Vawq elit libero, a pharetra augue mollis interdum."
-  },
-
-  {
-    "image": "https://picsum.photos/800/500?random=1",
-    "title":  "First slide label",
-    "content": "Nulla vitae elit libero, a pharetra augue mollis interdum."
-  },
-
-  {
-    "image": "https://picsum.photos/800/500?random=2",
-    "title":  "Second slide label",
-    "content": "Pope elit libero, a pharetra augue mollis interdum."
-  },
-
-  {
-    "image": "https://picsum.photos/800/500?random=3",
-    "title":  "Three slide label",
-    "content": "Vawq elit libero, a pharetra augue mollis interdum."
-  }
 ]

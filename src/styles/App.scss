@@ -1,8 +1,20 @@
 @use "../layout/Intro/intro";
+@use "../layout/CarouselBanner/carouselbanner";
 @use "../components/CarouselScroller/carouselscroller";
 @use "../components/Gallery/gallery";
 
 section {
   margin-top: 200px;
   margin-bottom: 200px;
+}
+
+body {
+  background-image: url(../../public/images/bg1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  background-color: rgba(0, 0, 0, 0.073);
+  background-blend-mode: color;
 }

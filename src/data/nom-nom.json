@@ -1,19 +1,50 @@
 [
   {
-    "image": "https://picsum.photos/800/500?random=10",
-    "title":  "First slide label",
-    "content": "Nulla vitae elit libero, a pharetra augue mollis interdum."
+    "image": "nom-nom-IMG_3487.webp",
+    "title":  "",
+    "content": ""
   },
 
   {
-    "image": "https://picsum.photos/800/500?random=20",
-    "title":  "Second slide label",
-    "content": "Pope elit libero, a pharetra augue mollis interdum."
+    "image": "nom-nom-IMG_3521.webp",
+    "title":  "",
+    "content": ""
   },
 
   {
-    "image": "https://picsum.photos/800/500?random=30",
-    "title":  "Three slide label",
-    "content": "Vawq elit libero, a pharetra augue mollis interdum."
-  }
+    "image": "nom-nom-IMG_4957.webp",
+    "title":  "",
+    "content": ""
+  },
+
+  {
+    "image": "nom-nom-IMG_5735.webp",
+    "title":  "",
+    "content": ""
+  },
+
+
+  {
+    "image": "nom-nom-IMG_5735.webp",
+    "title":  "",
+    "content": ""
+  },
+
+  {
+    "image": "nom-nom-IMG_9796.webp",
+    "title":  "",
+    "content": ""
+  },
+
+  {
+    "image": "nom-nom-1.webp",
+    "title":  "",
+    "content": ""
+  },
+
+  {
+    "image": "nom-nom-IMG_3483.webp",
+    "title":  "",
+    "content": ""
+  }   
 ]

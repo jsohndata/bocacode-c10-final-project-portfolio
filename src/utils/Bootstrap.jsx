@@ -9,8 +9,9 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Accordion from "react-bootstrap/Accordion";
-import ListGroup from "react-bootstrap/ListGroup";
 import Carousel from "react-bootstrap/Carousel";
+import Tooltip from 'react-bootstrap/Tooltip';
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 
 
-export { Container, Row, Col, Card, Nav, Navbar, NavDropdown,  Button, Image, Accordion, ListGroup, Modal, Carousel }
+export { Container, Row, Col, Card, Nav, Navbar, NavDropdown,  Button, Image, Accordion, Modal, Carousel, Tooltip, OverlayTrigger }

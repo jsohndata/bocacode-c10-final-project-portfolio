@@ -5,8 +5,16 @@ export default function Intro() {
 
   return(
     <main id="home">
-      <Container fluid className='hoho'>
+      <Container>
         <Row className="g-0">
+          <div className="media-container">
+            <div className="media-wrapper">
+              <video autoPlay loop muted>
+                <source src={videoUri} type="video/mp4" /> 
+              </video>
+            </div>
+          </div>
+
           <Col 
             md={{span: 8, offset: 2}}
             lg={{span:4, offset: 7}}>

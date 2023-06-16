@@ -3,13 +3,13 @@ import { Carousel, Image } from '../../utils/Bootstrap.jsx';
 export default function List( {data} ) {
 
   return (
-    <Carousel>
+    <Carousel fade>
       {          
         data.map( (each, index) => {
           return (
             <Carousel.Item>
               <Image
-                src={each.image}
+                src={process.env.PUBLIC_URL+'/images/'+each.image}
                 alt="First slide"
                 fluid />
 
