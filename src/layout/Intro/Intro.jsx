@@ -3,6 +3,7 @@ import { Container, Row, Col, Image } from '../../utils/Bootstrap.jsx';
 export default function Intro() {
 
   const imageUri = process.env.PUBLIC_URL + '/images/intro-bg.webp';
+  
   return(
     <main id="home">
       <Container>

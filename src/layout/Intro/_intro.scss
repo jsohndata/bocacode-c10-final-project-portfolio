@@ -1,0 +1,7 @@
+#home {
+  p {
+    font-size: clamp(1.0rem, 5vw, 2.2rem);
+    font-weight: 500;
+    line-height: clamp(2.0rem, 5vw, 2.2rem);
+  }
+}
