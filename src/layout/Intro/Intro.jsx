@@ -1,7 +1,6 @@
 import { Container, Row, Col } from '../../utils/Bootstrap.jsx';
 
 export default function Intro() {
-  const videoUri = process.env.PUBLIC_URL + '/videos/video3lg.mp4';
 
   return(
     <main id="home">

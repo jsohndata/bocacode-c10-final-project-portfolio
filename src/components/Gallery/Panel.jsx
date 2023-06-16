@@ -1,11 +1,12 @@
-import { ShareFill } from 'react-bootstrap-icons';
+import { ShareFill, InfoLg } from 'react-bootstrap-icons';
 import { Col, Card, Image, Modal, Button, Tooltip, OverlayTrigger } from '../../utils/Bootstrap.jsx';
 
 export default function Panel( {data: {projectName, projectInfo, former, projectImage, linkProject}} ) {
 
     const renderTooltip = (props) => (
+      
       <Tooltip className="button-tooltip" {...props}>
-        Simple tooltip
+        Launch Project
       </Tooltip>
     );
 
@@ -24,7 +25,14 @@ export default function Panel( {data: {projectName, projectInfo, former, project
               placement="right"
               delay={{ show: 250, hide: 400 }}
               overlay={renderTooltip}>           
-              <Button><a href={linkProject} target='_blank' rel="noreferrer"><ShareFill color="white" size={20} /></a></Button>
+              <Button variant="outline-primary"><a href={linkProject} target='_blank' rel="noreferrer"><ShareFill color="primary" size={20} /></a></Button>
+            </OverlayTrigger>
+
+            <OverlayTrigger
+              placement="right"
+              delay={{ show: 250, hide: 400 }}
+              overlay={renderTooltip}>           
+              <Button variant="outline-primary"><a href={linkProject} target='_blank' rel="noreferrer"><InfoLg color="primary" size={20} /></a></Button>
             </OverlayTrigger>
 
         </Card.Body>
