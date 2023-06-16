@@ -1,7 +1,14 @@
 #home {
+  margin-top: 5rem;
+  
   p {
     font-size: clamp(1.0rem, 5vw, 2.2rem);
     font-weight: 500;
     line-height: clamp(2.0rem, 5vw, 2.2rem);
+  }
+
+  img {
+    border: 3px solid rgba(255, 0, 170, 0.727);
+    border-radius: 13px; 
   }
 }

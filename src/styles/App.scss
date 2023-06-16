@@ -1,16 +1,11 @@
 @use "../layout/Intro/intro";
 @use "../layout/CarouselBanner/carousel-banner";
 @use "../layout/ThreeThings/three-things";
+@use "../layout/Portfolio/portfolio";
 @use "../components/CarouselScroller/carousel-scroller";
 @use "../components/Gallery/gallery";
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Spice&display=swap');
 
-
-
-section {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
 
 body {
   background-image: url(../../public/images/bg1.webp);
@@ -38,4 +33,13 @@ h2 {
 
 h3 {
   font-size: clamp(1.2rem, 4vw, 2rem);  
+}
+
+section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#portfolio, #special-sauce, #nom-nom, #day-in-life {
+  scroll-margin: 4em;
 }

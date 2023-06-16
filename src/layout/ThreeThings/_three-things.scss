@@ -1,6 +1,7 @@
 #special-sauce {
   h2 {
     font-family: 'Bungee Spice', cursive;
+    text-shadow: 0 0 20px rgba(4, 25, 0, 0.884);
   }
 
   h3 {
@@ -8,6 +9,11 @@
   }
 
   .three-things-panel {
+    img {
+      border: 3px solid rgba(255, 0, 170, 0.727);
+      border-radius: 13px;     
+    }
+
     p {
       font-size: clamp(1.0rem, 4vw, 1.5rem);
       font-weight: 600;
