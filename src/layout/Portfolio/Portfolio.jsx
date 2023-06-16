@@ -1,10 +1,21 @@
+import { Container, Row , Col} from '../../utils/Bootstrap.jsx';
 import Gallery from '../../components/Gallery/';
 
 export default function Portfolio() {
 
   return (
     <section id="portfolio">
-      <Gallery />
+      <Container className="gallery">
+        <Row>
+          <Col>
+            <h2 className="text-center">Portfolio</h2>
+          </Col>
+        </Row>
+
+        <Row className='g-3'>
+          <Gallery />
+        </Row>
+      </Container>
     </section>
   );
 }
