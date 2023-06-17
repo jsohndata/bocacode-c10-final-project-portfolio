@@ -16,9 +16,8 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
     </Tooltip>
   );
 
-  const [show, setShow] = useState(false);
-
-  const toggleModalShow = () => setShow(!show);
+  const [showModal, setShowModal] = useState(false);
+  const toggleModalShow = () => setShowModal(!showModal);
 
   const imageUri = process.env.PUBLIC_URL + '/images/';
 
@@ -53,7 +52,7 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
       </Card>  
 
       <Modal 
-        show={show} 
+        show={showModal} 
         onHide={toggleModalShow} 
         size="xl"
         className="backdrop-effect">

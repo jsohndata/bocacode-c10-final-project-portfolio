@@ -1,6 +1,8 @@
 .gallery {
   .card {
-    background-color: rgba(250, 250, 250, 0.68);
+    background-image: linear-gradient(
+      rgba(249, 244, 244, 0.801),
+      rgba(46, 48, 24, 0.189), );
     
    img {
       aspect-ratio: 4/2.5;
