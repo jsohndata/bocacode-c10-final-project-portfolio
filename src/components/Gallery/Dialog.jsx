@@ -17,8 +17,8 @@ export default function Dialog ({ name, photo, former, content, linkGitHub, link
               <Image src={imageUri + photo} fluid />
             </Col>
 
-            <Col xs={12} lg={6} className="px-5 pb-5">
-              <div className="panel-close">
+            <Col xs={12} lg={6} className="px-5 pb-5 position-relative">
+              <div className="close">
                 <Button variant="outline-secondary"
                   size="sm"
                   onClick={toggleModalShow}>Esc X</Button>
@@ -34,7 +34,7 @@ export default function Dialog ({ name, photo, former, content, linkGitHub, link
               variant="info" className="me-2"><Linkedin color="white" size={25} /></Button></a>
 
               <a href={linkLinedin} target='_blank' rel="noreferrer"><Button
-              variant="info" className="me-2"><ShareFill color="white" size={25} /></Button></a>              
+              variant="info" className="me-2"><ShareFill color="white" size={25} /></Button></a>
             </Col>
           </Row>
         </Container>

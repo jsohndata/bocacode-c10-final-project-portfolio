@@ -10,3 +10,12 @@
     }
   }
 }
+
+.close {
+  padding: 10px;
+  opacity: 0.47;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(-25%);
+}

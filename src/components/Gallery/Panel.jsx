@@ -6,6 +6,11 @@ import Dialog from './Dialog.jsx';
 
 export default function Panel( {data: {projectName, projectInfo, name, former, content, projectImage, linkProject, linkGitHub, linkLinedin, photo}} ) {
 
+  const [showModal, setShowModal] = useState(false);
+  const toggleModalShow = () => setShowModal(!showModal);
+
+  const imageUri = process.env.PUBLIC_URL + '/images/';
+
   const toolTipLaunch = (props) => (      
     <Tooltip className="button-tooltip" {...props}>
       Launch Project
@@ -17,11 +22,6 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
       See Profile
     </Tooltip>
   );
-
-  const [showModal, setShowModal] = useState(false);
-  const toggleModalShow = () => setShowModal(!showModal);
-
-  const imageUri = process.env.PUBLIC_URL + '/images/';
 
   return (
     <Col md={6} lg={4}>
@@ -44,7 +44,6 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
               <Button variant="outline-info">
                 <a href={linkProject} target='_blank' rel="noreferrer"><ShareFill color="info" size={20} /></a>
               </Button>
-
             </OverlayTrigger>
 
             <OverlayTrigger
@@ -55,8 +54,8 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
               <Button variant="outline-info" className="mx-2" onClick={toggleModalShow}>
                 <InfoLg color="info" size={20} />
               </Button>
-
             </OverlayTrigger>
+            
         </Card.Body>
       </Card>  
 
@@ -66,7 +65,7 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
         content={content}
         linkGitHub={linkGitHub}
         linkLinedin={linkLinedin}
-        photo={photo}        
+        photo={photo}    
         showModal={showModal}
         toggleModalShow={toggleModalShow} />
     </Col>
