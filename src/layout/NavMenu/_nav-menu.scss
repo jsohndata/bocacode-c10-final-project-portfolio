@@ -1,3 +1,11 @@
 .navbar {
   background-color: rgba(106, 10, 98, 0.905);
+
+  .navbar-brand {
+    font-family: 'Bungee', cursive;
+    color: #fff;
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+  }
 }

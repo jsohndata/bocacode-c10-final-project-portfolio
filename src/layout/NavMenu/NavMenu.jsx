@@ -5,7 +5,7 @@ export default function NavMenu() {
   return (
     <Navbar expand="lg" variant="dark" fixed="top">
       <Container>
-        <Navbar.Brand as={ HashLink } to="#home">🥳</Navbar.Brand>
+        <Navbar.Brand as={ HashLink } to="#home">C-10</Navbar.Brand>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
