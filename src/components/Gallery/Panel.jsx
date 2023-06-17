@@ -54,7 +54,7 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
       <Modal 
         show={showModal} 
         onHide={toggleModalShow} 
-        size="xl"
+        size="lg"
         className="backdrop-effect">
         <Container className="m-0 p-0">
           <Row>
