@@ -18,13 +18,14 @@ export default function Dialog ({ name, photo, former, content, linkGitHub, link
             </Col>
 
             <Col xs={12} lg={6} className="px-5 pb-5 position-relative">
-              <div className="close">
+              
                 <Button variant="outline-secondary"
                   size="sm"
+                  className="close-dialog"
                   onClick={toggleModalShow}>Esc X</Button>
-              </div>
+              
 
-              <h3 className="mt-5">{name}</h3>
+              <h3 className="mt-3">{name}</h3>
               <h4>{former}</h4>
               <p className="my-4">{content}</p>
               <a href={linkGitHub} target='_blank' rel="noreferrer"><Button
