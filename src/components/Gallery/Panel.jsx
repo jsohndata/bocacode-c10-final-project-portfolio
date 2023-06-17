@@ -39,6 +39,10 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
                 <a href={linkProject} target='_blank' rel="noreferrer"><ShareFill color="info" size={20} /></a>
               </Button>
             </OverlayTrigger>
+
+            <Button variant="outline-info" className="mx-2" onClick={toggleModalShow}>
+              <InfoLg color="info" size={20} />
+            </Button>
             
         </Card.Body>
       </Card>  
