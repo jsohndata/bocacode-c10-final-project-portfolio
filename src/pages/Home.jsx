@@ -1,12 +1,12 @@
+import portfolio from '../data/portfolio.json';
+import dayInLife from '../data/day-in-life.json';
+import nomNom from '../data/nom-nom.json';
+
 import Intro from "../layout/Intro";
 import ThreeThings from "../layout/ThreeThings";
 import CarouselBanner from "../layout/CarouselBanner";
 import AppLayout from "../layout/AppLayout.jsx";
 import Portfolio from "../layout/Portfolio/Portfolio";
-
-import portfolio from '../data/portfolio.json';
-import dayInLife from '../data/day-in-life.json';
-import nomNom from '../data/nom-nom.json';
 
 export default function Home() {
   return (

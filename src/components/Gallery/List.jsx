@@ -5,11 +5,11 @@ export default function List({ data }) {
   return (    
     <>
       {data.map( (each, index) => {
-          return (
-            <Panel 
-              key={ index }
-              data={ each } />
-          )}
+        return (
+          <Panel 
+            key={ index }
+            data={ each } />
+        )}
       )}
     </>        
   );
