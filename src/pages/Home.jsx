@@ -16,7 +16,7 @@ export default function Home() {
         anchorID="day-in-life"
         title="Day in the Life"
         content="Step into Cohort-10's whimsical realm, where lively discussions and laughter intertwine. Explore our gallery, where extraordinary moments unfold within this enchanting journey. Discover determined faces immersed in profound studies, minds brimming with growth. Join us as the ordinary transforms into captivating experiences in Cohort-10's world."
-        data={nomNom} />
+        data={dayInLife} />
       
       <Portfolio />
       
