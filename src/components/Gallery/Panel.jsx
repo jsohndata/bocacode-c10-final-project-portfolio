@@ -71,6 +71,12 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
             </Col>
 
             <Col xs={12} lg={6} className="px-5 pb-5">
+              <div className="panel-close">
+                <Button variant="outline-secondary"
+                  size="sm"
+                  onClick={toggleModalShow}>Esc X</Button>
+              </div>
+
               <h3 className="mt-5">{name}</h3>
               <h4>{former}</h4>
               <p className="my-4">{content}</p>
@@ -81,7 +87,7 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
               variant="info" className="me-2"><Linkedin color="white" size={25} /></Button></a>
 
               <a href={linkLinedin} target='_blank' rel="noreferrer"><Button
-              variant="info" className="me-2"><ShareFill color="white" size={25} /></Button></a>
+              variant="info" className="me-2"><ShareFill color="white" size={25} /></Button></a>              
             </Col>
           </Row>
         </Container>

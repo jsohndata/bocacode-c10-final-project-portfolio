@@ -9,7 +9,7 @@ export default function Footer() {
         <Row>
           <Col>
             <p className="text-center">
-            <a href="https://github.com/jsohndata?tab=repositories" target="_blank" rel="noreferrer" className="text-white"><Github color="white" size={40} />
+            <a href="https://github.com/jsohndata/bocacode-c10-final-project-portfolio" target="_blank" rel="noreferrer" className="text-white"><Github color="white" size={40} />
             <br />
             See Code in GitHub</a></p>
           </Col>
