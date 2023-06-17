@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { ShareFill, InfoLg } from 'react-bootstrap-icons';
+import { ShareFill, InfoLg, Github, Linkedin } from 'react-bootstrap-icons';
 import { Container, Row, Col, Card, Image, Modal, Button, Tooltip, OverlayTrigger } from '../../utils/Bootstrap.jsx';
 
-export default function Panel( {data: {projectName, projectInfo, name, former, content, projectImage, linkProject, photo}} ) {
+export default function Panel( {data: {projectName, projectInfo, name, former, content, projectImage, linkProject, linkGitHub, linkLinedin, photo}} ) {
 
   const toolTipLaunch = (props) => (      
     <Tooltip className="button-tooltip" {...props}>
@@ -32,20 +32,20 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
             <p>{projectInfo}</p> 
 
             <OverlayTrigger
-              placement="right"
-              delay={{ show: 250, hide: 400 }}
+              placement="bottom"
+              delay={{ show: 250, hide: 250 }}
               overlay={toolTipLaunch}>           
-              <Button variant="outline-primary">
-                <a href={linkProject} target='_blank' rel="noreferrer"><ShareFill color="primary" size={20} /></a>
+              <Button variant="outline-info">
+                <a href={linkProject} target='_blank' rel="noreferrer"><ShareFill color="info" size={20} /></a>
               </Button>
             </OverlayTrigger>
 
             <OverlayTrigger
-              placement="right"
-              delay={{ show: 250, hide: 400 }}
+              placement="bottom"
+              delay={{ show: 250, hide: 250 }}
               overlay={toolTipProfile}>           
-              <Button variant="outline-primary" className="mx-2" onClick={toggleModalShow}>
-                <InfoLg color="primary" size={20} />
+              <Button variant="outline-info" className="mx-2" onClick={toggleModalShow}>
+                <InfoLg color="info" size={20} />
               </Button>
             </OverlayTrigger>
         </Card.Body>
@@ -58,14 +58,22 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
         className="backdrop-effect">
         <Container className="m-0 p-0">
           <Row>
-            <Col xs={12} md={6}>
+            <Col xs={12} lg={6}>
               <Image src={imageUri + photo} fluid />
             </Col>
 
-            <Col xs={12} md={6}>
-              <h3>{name}</h3>
-              <p>{former}</p>
-              <p>{content}</p>
+            <Col xs={12} lg={6} className="px-5 pb-5">
+              <h3 className="mt-5">{name}</h3>
+              <h4>{former}</h4>
+              <p className="my-4">{content}</p>
+              <a href={linkGitHub} target='_blank' rel="noreferrer"><Button
+              variant="info" className="me-2"><Github color="white" size={25} /></Button></a>
+
+              <a href={linkLinedin} target='_blank' rel="noreferrer"><Button
+              variant="info" className="me-2"><Linkedin color="white" size={25} /></Button></a>
+
+              <a href={linkLinedin} target='_blank' rel="noreferrer"><Button
+              variant="info" className="me-2"><ShareFill color="white" size={25} /></Button></a>
             </Col>
           </Row>
         </Container>
