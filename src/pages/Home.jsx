@@ -16,7 +16,7 @@ export default function Home() {
       <CarouselBanner
         anchorID="day-in-life"
         title="Day in the Life"
-        content="Step into Cohort-10's whimsical realm, where lively discussions and laughter intertwine. Explore our gallery, where extraordinary moments unfold within this enchanting journey. Discover determined faces immersed in profound studies, minds brimming with growth. Join us as the ordinary transforms into captivating experiences in Cohort-10's world."
+        content="Explore our gallery, where extraordinary moments unfold within each photo as immersed in our studies with growth mind. Join us as the ordinary transforms into captivating experiences during Cohort-10."
         data={dayInLife} />
       
       <Portfolio 
@@ -27,7 +27,7 @@ export default function Home() {
       <CarouselBanner
         anchorID="nom-nom"
         title="Nom Nom"
-        content="In this cohort of ours, we feasted and partied, strengthening our bond! The food flowed generously, fueling our connection with each delicious bite. Our taste buds rejoiced as we savored scrumptious treats, and our friendship flourished. We became a squad of food enthusiasts, creating memories sweeter than a cupcake!"
+        content="We feasted and partied, strengthening our bond! The energy flowed generously, fueling our code with each delicious bite. Our taste buds rejoiced and our connection flourished, creating memories sweeter than a cupcake!"
         data={nomNom} />
     </AppLayout>
   );
