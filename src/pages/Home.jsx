@@ -4,6 +4,7 @@ import CarouselBanner from "../layout/CarouselBanner";
 import AppLayout from "../layout/AppLayout.jsx";
 import Portfolio from "../layout/Portfolio/Portfolio";
 
+import portfolio from '../data/portfolio.json';
 import dayInLife from '../data/day-in-life.json';
 import nomNom from '../data/nom-nom.json';
 
@@ -18,7 +19,10 @@ export default function Home() {
         content="Step into Cohort-10's whimsical realm, where lively discussions and laughter intertwine. Explore our gallery, where extraordinary moments unfold within this enchanting journey. Discover determined faces immersed in profound studies, minds brimming with growth. Join us as the ordinary transforms into captivating experiences in Cohort-10's world."
         data={dayInLife} />
       
-      <Portfolio />
+      <Portfolio 
+        anchorID="portfolio"
+        title="Portfolio"
+        data={portfolio} />
       
       <CarouselBanner
         anchorID="nom-nom"
