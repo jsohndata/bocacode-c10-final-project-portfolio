@@ -12,7 +12,7 @@ export default function Portfolio() {
           </Col>
         </Row>
 
-        <Row className='g-3'>
+        <Row className='g-4'>
           <Gallery />
         </Row>
       </Container>

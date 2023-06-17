@@ -10,9 +10,9 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
     </Tooltip>
   );
 
-  const toolTipProfile = (props) => (      
+  const toolTipProfile = (props, koko) => (      
     <Tooltip className="button-tooltip" {...props}>
-      See Profile
+      See Profile1 {props.koko}
     </Tooltip>
   );
 
@@ -24,7 +24,9 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
   return (
     <Col md={6} lg={4}>
       <Card>          
-        <a href={linkProject} target='_blank' rel="noreferrer"><Image src={imageUri + projectImage} fluid /></a>          
+        <a href={linkProject} target='_blank' rel="noreferrer"><Image 
+          src={imageUri + projectImage} fluid /></a> 
+                   
           <Card.Body className="px-4 my-2">
             <h3 className='text-center'>{projectName}</h3>
             <p className='text-center cursor-pointer'
@@ -34,19 +36,25 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
             <OverlayTrigger
               placement="bottom"
               delay={{ show: 250, hide: 250 }}
-              overlay={toolTipLaunch}>           
+              overlay={toolTipLaunch}
+              koko="hihi">
+
               <Button variant="outline-info">
                 <a href={linkProject} target='_blank' rel="noreferrer"><ShareFill color="info" size={20} /></a>
               </Button>
+
             </OverlayTrigger>
+
 
             <OverlayTrigger
               placement="bottom"
               delay={{ show: 250, hide: 250 }}
-              overlay={toolTipProfile}>           
+              overlay={toolTipProfile}>
+
               <Button variant="outline-info" className="mx-2" onClick={toggleModalShow}>
                 <InfoLg color="info" size={20} />
               </Button>
+
             </OverlayTrigger>
         </Card.Body>
       </Card>  
