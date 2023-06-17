@@ -10,9 +10,9 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
     </Tooltip>
   );
 
-  const toolTipProfile = (props, koko) => (      
+  const toolTipProfile = (props) => (      
     <Tooltip className="button-tooltip" {...props}>
-      See Profile1 {props.koko}
+      See Profile
     </Tooltip>
   );
 
