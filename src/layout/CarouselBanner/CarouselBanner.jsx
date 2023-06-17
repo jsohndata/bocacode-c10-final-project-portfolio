@@ -5,8 +5,8 @@ export default function CarouselBanner( {anchorID, title, content, data} ) {
 
   return (
     <section id={anchorID} className="carousel-banner">
-      <Container>
-        <Row className="g-0">
+      <Container className="m-0 p-0" fluid>
+        <Row className="g-0 d-flex justify-content-center">
           <Col xs={12} lg={7}>
             <CarouselScroller
               data={data} />

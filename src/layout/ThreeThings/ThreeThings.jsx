@@ -13,7 +13,7 @@ export default function ThreeThings() {
           </Col>
         </Row>
 
-        <Row className="g-5 d-flex justify-content-center">
+        <Row className="g-4 d-flex justify-content-center">
           <Col xs={11} lg={4} 
             className='three-things-panel'>            
             <Image fluid src={imageURI+"special-sauce-1.webp"} alt="placeholder" />

@@ -37,13 +37,20 @@ h3 {
   font-size: clamp(1.2rem, 4vw, 2rem);  
 }
 
+
+
+#portfolio, 
+#special-sauce, 
+#nom-nom, 
+#day-in-life {
+  scroll-margin: 4em;
+  width: 99%;
+  margin: 0 auto;
+}
+
 section {
   margin-top: 5rem;
   margin-bottom: 5rem;
-}
-
-#portfolio, #special-sauce, #nom-nom, #day-in-life {
-  scroll-margin: 4em;
 }
 
 .backdrop-effect {
