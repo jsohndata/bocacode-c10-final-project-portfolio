@@ -7,13 +7,13 @@ export default function ThreeThings() {
   return (
     <section id="special-sauce">
       <Container>
-        <Row>
+        <Row className="d-flex justify-content-center">
           <Col xs={11} sm={12}>
             <h2 className="text-center">Special Sauce</h2>
           </Col>
         </Row>
 
-        <Row>
+        <Row className="d-flex justify-content-center">
           <Col xs={11} lg={4} 
             className='three-things-panel'>            
             <Image fluid src={imageURI+"special-sauce-1.webp"} alt="placeholder" />
