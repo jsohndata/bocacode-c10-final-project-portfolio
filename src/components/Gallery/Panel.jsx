@@ -17,12 +17,6 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
     </Tooltip>
   );
 
-  const toolTipProfile = (props) => (      
-    <Tooltip className="button-tooltip" {...props}>
-      See Profile
-    </Tooltip>
-  );
-
   return (
     <Col md={6} lg={4}>
       <Card>          
@@ -43,16 +37,6 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
 
               <Button variant="outline-info">
                 <a href={linkProject} target='_blank' rel="noreferrer"><ShareFill color="info" size={20} /></a>
-              </Button>
-            </OverlayTrigger>
-
-            <OverlayTrigger
-              placement="bottom"
-              delay={{ show: 250, hide: 250 }}
-              overlay={toolTipProfile}>
-
-              <Button variant="outline-info" className="mx-2" onClick={toggleModalShow}>
-                <InfoLg color="info" size={20} />
               </Button>
             </OverlayTrigger>
             
