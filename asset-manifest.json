@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bocacode-c10-final-project-portfolio/static/css/main.218215bb.css",
-    "main.js": "/bocacode-c10-final-project-portfolio/static/js/main.cce0284b.js",
+    "main.js": "/bocacode-c10-final-project-portfolio/static/js/main.3b7901e5.js",
     "static/media/bg1.webp": "/bocacode-c10-final-project-portfolio/static/media/bg1.35eb51a07a811082ef7c.webp",
     "index.html": "/bocacode-c10-final-project-portfolio/index.html",
     "main.218215bb.css.map": "/bocacode-c10-final-project-portfolio/static/css/main.218215bb.css.map",
-    "main.cce0284b.js.map": "/bocacode-c10-final-project-portfolio/static/js/main.cce0284b.js.map"
+    "main.3b7901e5.js.map": "/bocacode-c10-final-project-portfolio/static/js/main.3b7901e5.js.map"
   },
   "entrypoints": [
     "static/css/main.218215bb.css",
-    "static/js/main.cce0284b.js"
+    "static/js/main.3b7901e5.js"
   ]
 }
