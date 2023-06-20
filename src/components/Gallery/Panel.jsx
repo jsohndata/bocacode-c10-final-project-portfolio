@@ -4,7 +4,7 @@ import { Col, Card, Image, Button, Tooltip, OverlayTrigger } from '../../utils/B
 import Dialog from './Dialog.jsx';
 
 
-export default function Panel( {data: {projectName, projectInfo, name, former, content, projectImage, linkProject, linkGitHub, linkLinedin, photo}} ) {
+export default function Panel( {data: {projectName, projectInfo, name, former, content, projectImage, linkProject, linkGitHub, linkLinkedin, photo}} ) {
 
   const [showModal, setShowModal] = useState(false);
   const toggleModalShow = () => setShowModal(!showModal);
@@ -52,7 +52,7 @@ export default function Panel( {data: {projectName, projectInfo, name, former, c
         former={former}
         content={content}
         linkGitHub={linkGitHub}
-        linkLinedin={linkLinedin}
+        linkLinkedin={linkLinkedin}
         photo={photo}    
         showModal={showModal}
         toggleModalShow={toggleModalShow} />

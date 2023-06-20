@@ -1,7 +1,7 @@
 import { ShareFill, Github, Linkedin } from 'react-bootstrap-icons';
 import { Container, Row, Col, Modal, Image, Button } from '../../utils/Bootstrap.jsx';
 
-export default function Dialog ({ name, photo, former, content, linkGitHub, linkLinedin, showModal, toggleModalShow }) {
+export default function Dialog ({ name, photo, former, content, linkGitHub, linkLinkedin, showModal, toggleModalShow }) {
   
   const imageUri = process.env.PUBLIC_URL + '/images/';
 
@@ -31,10 +31,10 @@ export default function Dialog ({ name, photo, former, content, linkGitHub, link
               <a href={linkGitHub} target='_blank' rel="noreferrer"><Button
               variant="info" className="me-2"><Github color="white" size={25} /></Button></a>
 
-              <a href={linkLinedin} target='_blank' rel="noreferrer"><Button
+              <a href={linkLinkedin} target='_blank' rel="noreferrer"><Button
               variant="info" className="me-2"><Linkedin color="white" size={25} /></Button></a>
 
-              <a href={linkLinedin} target='_blank' rel="noreferrer"><Button
+              <a href={linkLinkedin} target='_blank' rel="noreferrer"><Button
               variant="info" className="me-2"><ShareFill color="white" size={25} /></Button></a>
             </Col>
           </Row>
