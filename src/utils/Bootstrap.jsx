@@ -13,5 +13,4 @@ import Carousel from "react-bootstrap/Carousel";
 import Tooltip from 'react-bootstrap/Tooltip';
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 
-
 export { Container, Row, Col, Card, Nav, Navbar, NavDropdown,  Button, Image, Accordion, Modal, Carousel, Tooltip, OverlayTrigger }
